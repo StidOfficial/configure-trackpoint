@@ -1,0 +1,30 @@
+0.6	add another directory to scan
+
+0.5	automatically scans several directories for driver
+	make it work on ubuntu feisty
+
+0.4	clean up the code
+	make program work with recent kernels
+
+0.3.3
+- fixed trackpoint service for newer kernels where psmouse is not a module
+
+0.3
+
+- reworked for kernels >= 2.6.11
+
+- added conf file and init file - the program now runs as a service in init.d
+
+- save icon is no longer active when run by user - you need to	
+  run the program with root priviliges in order to save changes
+
+note! this version will only work with kernels >= 2.6.11
+
+0.2
+
+- added new icon
+
+
+0.1
+
+- initial release

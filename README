@@ -1,0 +1,2 @@
+Saving settings depends on sysfsutils. Please make sure you have
+sysfsutils installed.

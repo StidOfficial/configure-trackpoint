@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-16 16:35-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:32 src/interface.c:704 src/interface.c:769
+#: src/interface.c:834
+msgid "Save Settings"
+msgstr ""
+
+#: src/interface.c:39
+msgid "Revert"
+msgstr ""
+
+#: src/interface.c:40 src/interface.c:160
+msgid "Restore settings"
+msgstr ""
+
+#: src/interface.c:46
+msgid "Restore Initial Values"
+msgstr ""
+
+#: src/interface.c:47
+msgid "Restore factory defaults"
+msgstr ""
+
+#: src/interface.c:131
+msgid "Configure TrackPoint"
+msgstr ""
+
+#: src/interface.c:155
+msgid "Apply changes to TrackPoint"
+msgstr ""
+
+#: src/interface.c:166
+msgid "Save settings"
+msgstr ""
+
+#: src/interface.c:177
+msgid "These parameters control normal cursor movement."
+msgstr ""
+
+#: src/interface.c:209
+msgid "Negative Inertia"
+msgstr ""
+
+#: src/interface.c:216
+msgid ""
+"Upper Plateau Speed\n"
+"(controls high speed performance)"
+msgstr ""
+
+#: src/interface.c:224
+msgid "Sensitivity"
+msgstr ""
+
+#. checkbutton2 = gtk_check_button_new_with_mnemonic (_("Enable Middle Button"));
+#. gtk_widget_show (checkbutton2);
+#. gtk_box_pack_start (GTK_BOX (vbox1), checkbutton2, FALSE, FALSE, 0);
+#. gtk_tooltips_set_tip (tooltips, checkbutton2, _("Applies to the TrackPoint and external pointing device"), NULL);
+#: src/interface.c:236
+msgid "Basic"
+msgstr ""
+
+#: src/interface.c:245
+msgid ""
+"These parameters apply to the vertical force (Z axis) on the TrackPoint."
+msgstr ""
+
+#: src/interface.c:255
+msgid "Enable Press to Select"
+msgstr ""
+
+#: src/interface.c:258
+msgid "Enable Z-axis"
+msgstr ""
+
+#: src/interface.c:260
+msgid "Supress movement after drag release (skip back)"
+msgstr ""
+
+#: src/interface.c:327
+msgid "Press Sharpness"
+msgstr ""
+
+#: src/interface.c:332
+msgid "(Z time)"
+msgstr ""
+
+#: src/interface.c:343
+msgid "Press Threshold"
+msgstr ""
+
+#: src/interface.c:348
+msgid "(minimum force to trigger a press or release)"
+msgstr ""
+
+#: src/interface.c:359
+msgid "Click Threshold"
+msgstr ""
+
+#: src/interface.c:364
+msgid "(minimum force to trigger a click)"
+msgstr ""
+
+#: src/interface.c:375
+msgid "Drag Threshold"
+msgstr ""
+
+#: src/interface.c:380
+msgid "(minimum force to trigger dragging)"
+msgstr ""
+
+#: src/interface.c:391
+msgid "Resistance to Dragging when Pressed"
+msgstr ""
+
+#: src/interface.c:397
+msgid "(drag hysteresis)"
+msgstr ""
+
+#: src/interface.c:409
+msgid "Double Click Sensitivity"
+msgstr ""
+
+#: src/interface.c:414
+msgid "(Jenks curvature) "
+msgstr ""
+
+#: src/interface.c:419
+msgid "Backup Range for Z-axis Press"
+msgstr ""
+
+#: src/interface.c:426
+msgid "Vertical Force"
+msgstr ""
+
+#: src/interface.c:533
+msgid "TrackPoint Detection Failed"
+msgstr ""
+
+#: src/interface.c:553
+msgid ""
+"TrackPoint is not detected. Please check your kernel and TrackPoint driver."
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/interface.c:597
+msgid "translator_credits"
+msgstr ""
+
+#: src/interface.c:606
+msgid "(C) 2004 Cheuksan Wang"
+msgstr ""
+
+#: src/interface.c:607
+msgid "A TrackPoint configuration program"
+msgstr ""
+
+#: src/interface.c:639
+msgid "TrackPoint Setting"
+msgstr ""
+
+#: src/interface.c:652
+msgid ""
+"Your sensitivity setting is very low. Are you sure you want to apply your "
+"changes?"
+msgstr ""
+
+#: src/interface.c:724
+msgid "label38"
+msgstr ""
+
+#: src/interface.c:782
+msgid "Saving settings will modify /etc/sysfs.conf. Are you sure?"
+msgstr ""
+
+#: src/interface.c:848
+msgid ""
+"Your sensitivity setting is very low. Are you sure you want to save your "
+"settings?"
+msgstr ""
+
+#: src/interface.c:899
+msgid "Settings Saved"
+msgstr ""
+
+#: src/interface.c:913
+msgid ""
+"TrackPoint settings saved. Your original file is renamed /etc/sysfs.conf."
+"bak ."
+msgstr ""
+
+#: src/support.c:60 src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""

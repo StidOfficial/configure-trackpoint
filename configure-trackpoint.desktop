@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Configure TrackPoint
+Comment=TrackPoint Configuration Tool
+Icon=trackpoint.png
+Exec=gksu configure-trackpoint
+Type=Application
+Terminal=false
+Encoding=UTF-8
+StartupNotify=true
+Categories=GNOME;Application;Settings;HardwareSettings;System;SystemSetup;
