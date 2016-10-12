@@ -133,7 +133,7 @@ create_main (void)
   if (main_icon_pixbuf)
     {
       gtk_window_set_icon (GTK_WINDOW (main), main_icon_pixbuf);
-      gdk_pixbuf_unref (main_icon_pixbuf);
+      g_object_unref (main_icon_pixbuf);
     }
 
   bonobodock1 = GNOME_APP (main)->dock;
@@ -535,7 +535,7 @@ create_error_dialog_quit (void)
   if (error_dialog_quit_icon_pixbuf)
     {
       gtk_window_set_icon (GTK_WINDOW (error_dialog_quit), error_dialog_quit_icon_pixbuf);
-      gdk_pixbuf_unref (error_dialog_quit_icon_pixbuf);
+      g_object_unref (error_dialog_quit_icon_pixbuf);
     }
 
   dialog_vbox1 = GTK_DIALOG (error_dialog_quit)->vbox;
@@ -614,7 +614,7 @@ create_about2 (void)
   if (about2_icon_pixbuf)
     {
       gtk_window_set_icon (GTK_WINDOW (about2), about2_icon_pixbuf);
-      gdk_pixbuf_unref (about2_icon_pixbuf);
+      g_object_unref (about2_icon_pixbuf);
     }
 
   /* Store pointers to all widgets, for use by lookup_widget(). */
@@ -706,7 +706,7 @@ create_dialog2 (void)
   if (dialog2_icon_pixbuf)
     {
       gtk_window_set_icon (GTK_WINDOW (dialog2), dialog2_icon_pixbuf);
-      gdk_pixbuf_unref (dialog2_icon_pixbuf);
+      g_object_unref (dialog2_icon_pixbuf);
     }
 
   dialog_vbox3 = GTK_DIALOG (dialog2)->vbox;
