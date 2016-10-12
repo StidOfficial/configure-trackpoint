@@ -5,4 +5,6 @@ po/Makefile.in
 po/POTFILES
 src/.deps/*
 src/Makefile
+src/configure-trackpoint
+src/*.o
 stamp-h1
